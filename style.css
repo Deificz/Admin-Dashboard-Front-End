@@ -158,6 +158,7 @@ h4,h5{
     background-color: var(--primary-color);
     grid-column: 1;
     grid-row: 1 / span 3;
+    
 }
 
 /*UPPER PART*/
@@ -202,22 +203,6 @@ h1{
 .personal-bars .fa-solid, .utility-bars .fa-solid{
     margin-right: 20px;
     font-size: 20px;
-}
-/*PERSONAL BUTTONS PART*/
-
-.personal-bars{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    margin: 3rem 0;
-}
-
-/*UTILITY BUTTONS PART*/
-.utility-bars{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    
 }
 
 /*MAIN SECTION*/
